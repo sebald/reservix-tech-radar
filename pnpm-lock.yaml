@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@marigold/prettier-config':
         specifier: 0.3.1
-        version: 0.3.1(prettier@3.3.3)
+        version: 0.3.1(prettier@3.4.2)
       '@parcel/transformer-yaml':
         specifier: 2.6.2
         version: 2.6.2(@parcel/core@2.6.2)
@@ -21,8 +21,8 @@ importers:
         specifier: 2.6.2
         version: 2.6.2(terser@5.31.6)
       prettier:
-        specifier: 3.3.3
-        version: 3.3.3
+        specifier: 3.4.2
+        version: 3.4.2
 
 packages:
 
@@ -967,8 +967,8 @@ packages:
     resolution: {integrity: sha512-JcEmHlyLK/o0uGAlj65vgg+7LIms0xKXe60lcDOTU7oVX/3LuEuLwrQpW3VJ7de5TaFKiW4kWkaIpJL42FEgxQ==}
     engines: {node: '>=12.0.0'}
 
-  prettier@3.3.3:
-    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+  prettier@3.4.2:
+    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1154,9 +1154,9 @@ snapshots:
   '@lmdb/lmdb-win32-x64@2.5.2':
     optional: true
 
-  '@marigold/prettier-config@0.3.1(prettier@3.3.3)':
+  '@marigold/prettier-config@0.3.1(prettier@3.4.2)':
     dependencies:
-      prettier: 3.3.3
+      prettier: 3.4.2
 
   '@mischnic/json-sourcemap@0.1.1':
     dependencies:
@@ -2243,7 +2243,7 @@ snapshots:
       posthtml-parser: 0.11.0
       posthtml-render: 3.0.0
 
-  prettier@3.3.3: {}
+  prettier@3.4.2: {}
 
   queue-microtask@1.2.3: {}
 
